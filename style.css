@@ -1,0 +1,22 @@
+/*
+Theme Name: Reggie Peled Blank Theme
+Theme URL:
+Author: Reggie Peled
+Description: Blank Theme for WIE Course
+Version: 0.1
+License: Open
+Text Domain: reggie-peled-blank-template
+*/
+
+
+@import url('css/normalize.css');
+@import url('css/skeleton.css');
+
+
+* {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+
