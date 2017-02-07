@@ -1,2 +1,5 @@
-<h3>Sidebar Text</h3>
-<p>This is the sidebar content.</p>
+<!------Sidebar-------->
+
+
+<!-- dynamic_sidebar() means we are placing a widget here -->
+<?php dynamic_sidebar('first-widget'); ?>	<!-- 'first-widget' is the 'id' we defined in the function blank_widgets_init() -->
