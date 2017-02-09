@@ -46,8 +46,10 @@ function blank_widgets_init() {			//defining a function
 }
 add_action('widgets_init', 'blank_widgets_init');	//tells WordPress to include the custom PHP function
 
-
 /*-------------- Enable Menu --------------- */
 add_theme_support('menus');
+
+/*--- Enable Post Thumbnails ---*/
+add_theme_support( 'post-thumbnails' ); 
 
 ?>

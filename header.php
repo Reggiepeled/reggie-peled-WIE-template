@@ -17,7 +17,9 @@
     <div class="container">
 		<header class="row">
 			<div class="twelve columns">
-				<h1><?php bloginfo('name'); ?></h1>		 <!-- dynamically add the header -->
+				<h1><a href="<?php 
+						$url = home_url('/'); echo $url; ?>">
+						<?php bloginfo('name'); ?></a></h1>		 <!-- dynamically add the header -->
 				<p><?php bloginfo('description'); ?></p> <!-- dynamically add the paragraph -->
 			</div>
 			<!-- Add Menu Here -->

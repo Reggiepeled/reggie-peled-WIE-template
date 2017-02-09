@@ -19,6 +19,21 @@ Text Domain: reggie-peled-blank-template
     line-height: 1.5em;
 }
 
+h1 {
+	font-family: 'Walter Turncoat';
+    color: #5E3B59;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h1 a {
+	font-family: 'Walter Turncoat';
+    color: #5E3B59;
+    font-size: 5rem;
+    font-weight: bold;
+	text-decoration:none;
+}
+
 h2 {
 	font-family: 'Indie Flower';
     color: #5E3B59;
