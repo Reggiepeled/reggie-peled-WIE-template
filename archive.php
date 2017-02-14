@@ -1,5 +1,3 @@
-<!-- archive -->
-
 <?php 
 get_header(); ?>
 	

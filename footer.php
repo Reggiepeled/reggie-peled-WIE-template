@@ -1,5 +1,3 @@
-
-		
 <footer class="row">
 	<div class="four columns">
 		<?php dynamic_sidebar('footer-widget-one'); ?>

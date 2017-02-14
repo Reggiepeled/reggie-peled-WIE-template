@@ -5,12 +5,10 @@
     <title><?php bloginfo('name'); ?></title>
 
     <!-- Links to our Style.css file -->
-	<?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-	<!--The purpose of this function is to link to your default stylesheet in a dynamic way so that if you move your theme around to different servers, the link will always work relatively.-->
-
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Walter+Turncoat|Muli" rel="stylesheet">
 	
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Walter+Turncoat|Muli" rel="stylesheet">
+	<?php wp_head(); ?>	
 </head>
 
 <body>
@@ -20,7 +18,7 @@
 				<h1><a href="<?php 
 						$url = home_url('/'); echo $url; ?>">
 						<?php bloginfo('name'); ?></a></h1>		 <!-- dynamically add the header -->
-				<p><?php bloginfo('description'); ?></p> <!-- dynamically add the paragraph -->
+				<h3><?php bloginfo('description'); ?></h3> <!-- dynamically add the paragraph -->
 			</div>
 			<!-- Add Menu Here -->
 			<div class="row">

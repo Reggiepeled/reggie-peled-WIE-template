@@ -27,21 +27,19 @@ h1 {
 }
 
 h1 a {
-	font-family: 'Walter Turncoat';
-    color: #5E3B59;
-    font-size: 5rem;
-    font-weight: bold;
 	text-decoration:none;
+	font-size: 5rem;
+	color: #5E3B59;
 }
 
 h2 {
-	font-family: 'Indie Flower';
+	font-family: 'Walter Turncoat';
     color: #5E3B59;
     font-size: 3.5rem;
     font-weight: normal;
 }
 
-h4 {
+h3 {
 	font-family: 'Indie Flower';
     color: #5E3B59;
     font-size: 2.5rem;
@@ -66,10 +64,18 @@ h4 {
 	text-decoration:none;  
 	color: pink;
 	margin: 2%;
-	padding: 1% 0 1% 10%; 
+	padding: 1% 0 1% 5%; 
 	font-weight: 300;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .blank-menu-header ul li a:hover {
 	color: #cccccc;
+}
+
+footer.row {
+	background-color: #DCDCDC;
+}
+
+ul {
+	list-style-type: none;
 }

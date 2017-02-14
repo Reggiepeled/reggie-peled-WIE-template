@@ -10,7 +10,7 @@
 						if ( has_post_thumbnail() ) {
 							the_post_thumbnail('thumbnail');
 						}
-						the_content();?>	
+						the_excerpt();?>	
 					<a href="<?php the-permalink(); ?>">Read More</a>	
 				<?php	
 				endwhile;
