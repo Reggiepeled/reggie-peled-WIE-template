@@ -15,10 +15,12 @@
     <div class="container">
 		<header class="row">
 			<div class="twelve columns">
-				<h1><a href="<?php 
+				<article>
+					<h1><a href="<?php 
 						$url = home_url('/'); echo $url; ?>">
 						<?php bloginfo('name'); ?></a></h1>		 <!-- dynamically add the header -->
-				<h3><?php bloginfo('description'); ?></h3> <!-- dynamically add the paragraph -->
+					<h3><?php bloginfo('description'); ?></h3> <!-- dynamically add the paragraph -->
+				</article>
 			</div>
 			<!-- Add Menu Here -->
 			<div class="row">
